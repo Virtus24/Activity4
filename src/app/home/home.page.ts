@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GamesPage } from '../games/games.page';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+title="Games That I Played";
   constructor() {}
 
 }
